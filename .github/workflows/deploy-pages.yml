@@ -23,7 +23,9 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      # The starter lockfile contains platform-specific optional dependencies
+      # that npm 10 on the Actions runner resolves on install.
+      - run: npm install --no-audit --no-fund
       - run: npm run build:pages
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
