@@ -6,6 +6,8 @@
 
 `.github/workflows/daily-pricebook.yml`이 매일 실행되어 OpenRouter의 공개 모델 가격을 `data/pricebook.json`에 새 날짜로 누적합니다. GitHub의 커밋 기록과 JSON 파일 모두 일별 스냅샷을 보존합니다.
 
+GitHub Pages 배포는 `.github/workflows/deploy-pages.yml`이 `main` 브랜치의 변경마다 수행합니다. 일일 갱신 작업도 데이터를 저장한 뒤 정적 사이트를 다시 배포하므로, Pages 주소에서 최신 가격표를 바로 볼 수 있습니다.
+
 > OpenRouter 가격은 Silicon Data의 유료 지수 원자료와 동일하지 않은 공개 참고 데이터입니다.
 
 ## 실행
