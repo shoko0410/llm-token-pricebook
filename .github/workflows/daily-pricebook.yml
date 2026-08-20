@@ -32,7 +32,7 @@ jobs:
           git diff --cached --quiet || git commit -m "data: refresh daily model prices"
           git push
       - name: Install site dependencies
-        run: npm ci
+        run: npm install --no-audit --no-fund
       - name: Build Pages site
         run: npm run build:pages
       - name: Configure GitHub Pages
