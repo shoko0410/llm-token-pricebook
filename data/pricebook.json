@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T05:15:39.674Z",
+  "updatedAt": "2026-09-02T04:41:00.374Z",
   "source": "OpenRouter public model pricing API",
   "rows": [
     {
@@ -3994,6 +3994,306 @@
     },
     {
       "date": "2026-09-01",
+      "provider": "openai",
+      "model": "OpenAI: GPT-5.6 Terra Pro (batch)",
+      "segment": "Closed",
+      "input": 1,
+      "output": 6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "anthropic",
+      "model": "Anthropic: Claude Fable 5.1",
+      "segment": "Closed",
+      "input": 10,
+      "output": 50,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "qwen",
+      "model": "Qwen: Qwen3.8 Flash",
+      "segment": "Open",
+      "input": 0.15,
+      "output": 0.47,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "deepseek",
+      "model": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+      "segment": "Open",
+      "input": 0.22,
+      "output": 0.66,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "qwen",
+      "model": "Qwen: Qwen3.8 27B",
+      "segment": "Open",
+      "input": 0.425,
+      "output": 2.55,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "google",
+      "model": "Google: Gemini 3.7 Flash",
+      "segment": "Closed",
+      "input": 0.75,
+      "output": 3.75,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "google",
+      "model": "Google: Gemini 3.7 Flash (batch)",
+      "segment": "Closed",
+      "input": 0.1875,
+      "output": 0.9375,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "qwen",
+      "model": "Qwen: Qwen3.8 2.4T A95B",
+      "segment": "Open",
+      "input": 2,
+      "output": 6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "qwen",
+      "model": "Qwen: Qwen3.8 2.4T A95B (batch)",
+      "segment": "Open",
+      "input": 2,
+      "output": 6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "deepseek",
+      "model": "DeepSeek: DeepSeek V4 Pro 0813",
+      "segment": "Open",
+      "input": 1.1154,
+      "output": 3.3462,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "deepseek",
+      "model": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
+      "segment": "Open",
+      "input": 1.32,
+      "output": 3.96,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "x-ai",
+      "model": "SpaceXAI: Grok 4.6",
+      "segment": "Closed",
+      "input": 2,
+      "output": 6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "nvidia",
+      "model": "NVIDIA: Nemotron 3.5 Lightning",
+      "segment": "Open",
+      "input": 0.08,
+      "output": 0.2,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "qwen",
+      "model": "Qwen: Qwen3.8 Max",
+      "segment": "Open",
+      "input": 2,
+      "output": 6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "deepseek",
+      "model": "DeepSeek: DeepSeek V4 Flash 0731",
+      "segment": "Open",
+      "input": 0.065,
+      "output": 0.18,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "deepseek",
+      "model": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
+      "segment": "Open",
+      "input": 0.14,
+      "output": 0.28,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "qwen",
+      "model": "Qwen: Qwen3.7 Flash",
+      "segment": "Open",
+      "input": 0.03,
+      "output": 0.13,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "anthropic",
+      "model": "Claude Opus 5",
+      "segment": "Closed",
+      "input": 5,
+      "output": 25,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "anthropic",
+      "model": "Claude Opus 5 (batch)",
+      "segment": "Closed",
+      "input": 2.5,
+      "output": 12.5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "google",
+      "model": "Google: Gemini 3.6 Flash",
+      "segment": "Closed",
+      "input": 0.75,
+      "output": 3.75,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "google",
+      "model": "Google: Gemini 3.6 Flash (batch)",
+      "segment": "Closed",
+      "input": 0.375,
+      "output": 1.875,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "google",
+      "model": "Google: Gemini 3.5 Flash Lite",
+      "segment": "Closed",
+      "input": 0.3,
+      "output": 2.5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "google",
+      "model": "Google: Gemini 3.5 Flash Lite (batch)",
+      "segment": "Closed",
+      "input": 0.15,
+      "output": 1.25,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "moonshotai",
+      "model": "MoonshotAI: Kimi K3",
+      "segment": "Open",
+      "input": 3,
+      "output": 15,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "moonshotai",
+      "model": "MoonshotAI: Kimi K3 (batch)",
+      "segment": "Open",
+      "input": 3,
+      "output": 15,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "openai",
+      "model": "OpenAI: GPT-5.6 Luna Pro",
+      "segment": "Closed",
+      "input": 0.2,
+      "output": 1.2,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "openai",
+      "model": "OpenAI: GPT-5.6 Luna Pro (batch)",
+      "segment": "Closed",
+      "input": 0.1,
+      "output": 0.6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "openai",
+      "model": "OpenAI: GPT-5.6 Luna",
+      "segment": "Closed",
+      "input": 0.2,
+      "output": 1.2,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "openai",
+      "model": "OpenAI: GPT-5.6 Luna (batch)",
+      "segment": "Closed",
+      "input": 0.1,
+      "output": 0.6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
+      "provider": "openai",
+      "model": "OpenAI: GPT-5.6 Terra Pro",
+      "segment": "Closed",
+      "input": 2,
+      "output": 12,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-09-02",
       "provider": "openai",
       "model": "OpenAI: GPT-5.6 Terra Pro (batch)",
       "segment": "Closed",
