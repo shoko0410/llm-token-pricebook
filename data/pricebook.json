@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T04:43:05.891Z",
+  "updatedAt": "2026-10-25T04:49:25.118Z",
   "source": "OpenRouter public model pricing API",
   "rows": [
     {
@@ -19894,6 +19894,306 @@
     },
     {
       "date": "2026-10-24",
+      "provider": "deepseek",
+      "model": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+      "segment": "Open",
+      "input": 0.05,
+      "output": 0.15,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "moonshotai",
+      "model": "MoonshotAI: Kimi K3.1 Pro",
+      "segment": "Open",
+      "input": 2,
+      "output": 10,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "deepseek",
+      "model": "DeepSeek: DeepSeek V4.1 Flash 1017",
+      "segment": "Open",
+      "input": 0.15,
+      "output": 0.6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "nvidia",
+      "model": "NVIDIA: Nemotron 3.5 Super VL",
+      "segment": "Open",
+      "input": 0.15,
+      "output": 0.5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "google",
+      "model": "Google: Gemini 4 Argon",
+      "segment": "Closed",
+      "input": 2,
+      "output": 10,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "google",
+      "model": "Google: Gemini 4 Argon (batch)",
+      "segment": "Closed",
+      "input": 1,
+      "output": 5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "anthropic",
+      "model": "Anthropic: Claude Haiku 5.5",
+      "segment": "Closed",
+      "input": 0.1,
+      "output": 0.5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "anthropic",
+      "model": "Anthropic: Claude Haiku 5.5 (batch)",
+      "segment": "Closed",
+      "input": 0.05,
+      "output": 0.25,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "google",
+      "model": "Google: Nano Banana 2.1",
+      "segment": "Closed",
+      "input": 1.5,
+      "output": 7.5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6.1 Sol Pro",
+      "segment": "Closed",
+      "input": 2,
+      "output": 10,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6.1 Sol Pro (batch)",
+      "segment": "Closed",
+      "input": 1,
+      "output": 5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6.1 Sol",
+      "segment": "Closed",
+      "input": 2,
+      "output": 10,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6.1 Sol (batch)",
+      "segment": "Closed",
+      "input": 1,
+      "output": 5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "anthropic",
+      "model": "Anthropic: Claude Sonnet 5.5",
+      "segment": "Closed",
+      "input": 2,
+      "output": 10,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "anthropic",
+      "model": "Anthropic: Claude Sonnet 5.5 (batch)",
+      "segment": "Closed",
+      "input": 1,
+      "output": 5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "qwen",
+      "model": "Qwen: Qwen3.8 Max Prime",
+      "segment": "Open",
+      "input": 4,
+      "output": 12,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "cohere",
+      "model": "Cohere: Command A+",
+      "segment": "Closed",
+      "input": 0.3,
+      "output": 1.5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6 Luna Pro",
+      "segment": "Closed",
+      "input": 0.1,
+      "output": 0.5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6 Luna Pro (batch)",
+      "segment": "Closed",
+      "input": 0.05,
+      "output": 0.25,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6 Luna",
+      "segment": "Closed",
+      "input": 0.1,
+      "output": 0.5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6 Luna (batch)",
+      "segment": "Closed",
+      "input": 0.05,
+      "output": 0.25,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6 Sol Pro",
+      "segment": "Closed",
+      "input": 2,
+      "output": 10,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6 Sol Pro (batch)",
+      "segment": "Closed",
+      "input": 1,
+      "output": 5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6 Sol",
+      "segment": "Closed",
+      "input": 2,
+      "output": 10,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "openai",
+      "model": "OpenAI: GPT-6 Sol (batch)",
+      "segment": "Closed",
+      "input": 1,
+      "output": 5,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "anthropic",
+      "model": "Anthropic: Claude Opus 5.5",
+      "segment": "Closed",
+      "input": 4,
+      "output": 20,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "anthropic",
+      "model": "Anthropic: Claude Opus 5.5 (batch)",
+      "segment": "Closed",
+      "input": 2,
+      "output": 10,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "x-ai",
+      "model": "SpaceXAI: Grok 4.7",
+      "segment": "Closed",
+      "input": 2,
+      "output": 6,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "qwen",
+      "model": "Qwen: Qwen3.8 Omni Flash",
+      "segment": "Open",
+      "input": 0.15,
+      "output": 0.47,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
+      "provider": "deepseek",
+      "model": "DeepSeek: DeepSeek V4.1 Flash",
+      "segment": "Open",
+      "input": 0.02,
+      "output": 1,
+      "outputMix": 0.25,
+      "usage": 1
+    },
+    {
+      "date": "2026-10-25",
       "provider": "deepseek",
       "model": "DeepSeek: DeepSeek V4.1 Flash (batch)",
       "segment": "Open",
